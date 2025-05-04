@@ -1,6 +1,7 @@
+import antfu from "@antfu/eslint-config";
+
 // @ts-check
-import withNuxt from './.nuxt/eslint.config.mjs'
-import antfu from '@antfu/eslint-config'
+import withNuxt from "./.nuxt/eslint.config.mjs";
 
 export default withNuxt(antfu(
   {
@@ -14,7 +15,8 @@ export default withNuxt(antfu(
       quotes: "double",
     },
     // ignores: [".npm-store/**", "**/migrations/*"],
-  }, {
+  },
+  {
     rules: {
       // "vue/max-attributes-per-line": ["error", {
       //   singleline: {
@@ -38,5 +40,5 @@ export default withNuxt(antfu(
         ignore: ["README.md"],
       }],
     },
-  }
+  },
 ));
