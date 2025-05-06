@@ -3,6 +3,8 @@
     <h1 class="text-emerald-500 text-3xl font-bold underline">
       Hello world!
     </h1>
-    <button class="btn btn-soft btn-success">Success</button>
+    <button class="btn btn-soft btn-success">
+      Success
+    </button>
   </div>
 </template>
