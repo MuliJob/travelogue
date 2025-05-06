@@ -1,7 +1,8 @@
 <template>
   <div>
-    <h1 class="text-emerald-500 text-7xl font-bold underline">
+    <h1 class="text-emerald-500 text-3xl font-bold underline">
       Hello world!
     </h1>
+    <button class="btn btn-soft btn-success">Success</button>
   </div>
 </template>
