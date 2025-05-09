@@ -26,7 +26,7 @@ export default withNuxt(antfu(
       //     max: 1,
       //   },
       // }],
-      // "ts/no-redeclare": "off",
+      "ts/no-redeclare": "off",
       "ts/consistent-type-definitions": ["error", "type"],
       "no-console": ["warn"],
       "antfu/no-top-level-await": ["off"],
