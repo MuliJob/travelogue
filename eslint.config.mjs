@@ -14,7 +14,7 @@ export default withNuxt(antfu(
       semi: true,
       quotes: "double",
     },
-    // ignores: [".npm-store/**", "**/migrations/*"],
+    ignores: ["**/migrations/*"],
   },
   {
     rules: {
