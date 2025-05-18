@@ -1,5 +1,5 @@
 <template>
-  <div class="flex min-h-screen flex-col" data-theme="halloween">
+  <div class="flex min-h-screen flex-col">
     <AppNavBar />
     <main>
       <slot />
